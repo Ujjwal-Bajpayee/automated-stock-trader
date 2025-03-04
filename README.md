@@ -12,5 +12,5 @@ A Python-based stock trading bot that monitors stock prices and executes buy/sel
 ## Prerequisites
 
 1. **Alpaca Account**: Sign up at [Alpaca](https://alpaca.markets/) and get your API key and secret.
-2. **Python 3.8+**: Ensure Python is installed on your system.
+2. **Python 3.8+**: Ensure Python is installed on your system
 
