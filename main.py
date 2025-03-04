@@ -9,7 +9,6 @@ API_KEY = config('APCA_API_KEY_ID')
 API_SECRET = config('APCA_API_SECRET_KEY')
 BASE_URL = 'https://paper-api.alpaca.markets'  
 
-
 api = tradeapi.REST(API_KEY, API_SECRET, BASE_URL, api_version='v2')
 
 
