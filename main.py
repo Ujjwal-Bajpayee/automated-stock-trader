@@ -53,7 +53,6 @@ def monitor_and_trade(stock_symbol, buy_price, sell_price, qty, start_date, end_
     if bought:
         print(f"Notification: The sell price was not reached for {stock_symbol} within the given time period.")
 
-# Get user input
 def get_user_input():
     stock_symbol = input("Enter the stock symbol you want to trade: ").upper()
     buy_price = float(input("Enter the buy price: "))
